@@ -23,7 +23,7 @@ namespace tpmodul10_10302230099.Controllers
         };
 
         [HttpGet]
-        public IEnumerable<Mahasiswa> Get()
+        public IEnumerable<Mahasiswa> Get()  
         {
             return mahasiswaList;
         }
